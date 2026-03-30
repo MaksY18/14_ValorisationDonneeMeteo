@@ -53,7 +53,7 @@ select = [
     "UP",     # pyupgrade
     "DJ",     # flake8-django
 ]
-ignore = ["E501"]
+ignore = ["E501", "C420"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["config", "weather"]
